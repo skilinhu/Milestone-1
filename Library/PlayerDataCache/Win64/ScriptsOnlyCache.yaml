@@ -3,21 +3,21 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - CameraController
     - Espada
-    - IA
-    - MovimentacaoInimiga
     - PlayerController
     - Vida
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
   sceneClasses:
-    Assets/Sextou Origem/Scenes/Gameplay.unity:
+    Assets/Origem/Scenes/Mundo1.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -38,9 +38,11 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 54
       Script: {instanceID: 0}
-    - Class: 64
+    - Class: 65
       Script: {instanceID: 0}
     - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
       Script: {instanceID: 0}
     - Class: 90
       Script: {instanceID: 0}
@@ -59,34 +61,14 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10506}
     - Class: 114
-      Script: {instanceID: 11000}
-    - Class: 114
       Script: {instanceID: 11260}
-    - Class: 114
-      Script: {instanceID: 11396}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 136
       Script: {instanceID: 0}
     - Class: 137
       Script: {instanceID: 0}
-    - Class: 154
-      Script: {instanceID: 0}
-    - Class: 156
-      Script: {instanceID: 0}
     - Class: 157
-      Script: {instanceID: 0}
-    - Class: 195
-      Script: {instanceID: 0}
-    - Class: 196
-      Script: {instanceID: 0}
-    - Class: 208
-      Script: {instanceID: 0}
-    - Class: 218
-      Script: {instanceID: 0}
-    - Class: 238
-      Script: {instanceID: 0}
-    - Class: 1953259897
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -403,7 +385,7 @@ ScriptsOnlyBuild:
     className: TextMeshProUGUI
   - hash:
       serializedVersion: 2
-      Hash: 9b2f1c4d02e6cfde5945efa5bc12b005
+      Hash: b9f0a705bfc85822727086f68460919d
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: IA
@@ -539,8 +521,86 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: e4db0ddf42150a3b60bd39cf2bc3def2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CFX_LightFlicker
+  - hash:
+      serializedVersion: 2
+      Hash: 671420ad2c33f1ddaf6d076461adf15a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CFX_Demo_Translate
+  - hash:
+      serializedVersion: 2
+      Hash: 1d0beb1a2d4edee4c06b6835632e83a3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CFX_AutoStopLoopedEffect
+  - hash:
+      serializedVersion: 2
+      Hash: 4aac268d7e435f7a65add91aaba819a4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CFX_Demo_RandomDir
+  - hash:
+      serializedVersion: 2
+      Hash: 3f5031037e63abe5dcf87c278e01a4de
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CFX_Demo_RotateCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 5d27c6e85ec89cfab8577e9e26695e88
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CFX_AutoDestructShuriken
+  - hash:
+      serializedVersion: 2
+      Hash: 660deb0ce569359218f0ba85b7ce0e3a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CFX_LightIntensityFade
+  - hash:
+      serializedVersion: 2
+      Hash: dad3a1f1e1ecb4691721bab721edd60a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CFX_AutoRotate
+  - hash:
+      serializedVersion: 2
+      Hash: 421b20ccd7815ebee5e2b14a986d2efc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CFX_Demo_New
+  - hash:
+      serializedVersion: 2
+      Hash: e70e7b311a1620c2e899545b2e1fdfae
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CFX_Demo_RandomDirectionTranslate
+  - hash:
+      serializedVersion: 2
+      Hash: a832d40f5b36d5dee9935f29c6c87fe9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CharacterController
+  - hash:
+      serializedVersion: 2
+      Hash: ba1a29d9ccf1b6be668171b53900331e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MouseCamLook
+  - hash:
+      serializedVersion: 2
+      Hash: 9d9840f35479dc3b1a3da7988f7d3c39
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LightImprove
   platform: 19
   scenePathNames:
-  - Assets/Sextou Origem/Scenes/Gameplay.unity
+  - Assets/Origem/Scenes/Mundo1.unity
   playerPath: "C:/Users/N\xE1thali/Documents/Faculdade/Aula de sexta (.-.)/Sextou
     1.0/Build/Sextou 1.0.exe"
